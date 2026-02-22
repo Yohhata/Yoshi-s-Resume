@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Yoshi Ohhata — Computer Science student at Langara College. Full-stack developer skilled in Java, React, Spring Boot, and database design. View my projects and experience.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+    <title>Yoshi Ohhata | Software Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <a href="#" class="logo"><img src="Photos/logo.png" alt="Logo"></a>
+        <ul class="menulist">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About Me</a>
+            <a href="#resume">Resume</a>
+            <a href="#projects">Projects</a>
+            <a href="#journey">My Story</a>
+            <a href="#travel">Travel</a>
+            <a href="#contact">Contact</a>
+        </ul>
+        <div class="menu-right">
+            <a href="#" class="menu-btn">
+                <span>Let's Talk</span>
+                <i class="ri-message-3-line"></i>
+            </a>
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <div class="home-text">
+            <a href="#" class="h-line">
+                <i class="ri-shining-2-line"></i>
+                <span>This is Yoshi Ohhata</span>
+            </a>
+            <h1>Hi I am<br> <span class="input">Yoshi Ohhata</span></h1>
+            <h4>Computer Science Student &amp; Aspiring Software Engineer</h4>
+            <div class="social-icons">
+                <a href="https://github.com/Yohhata" target="_blank" title="GitHub"><i class="ri-github-fill"></i></a>
+                <a href="https://www.linkedin.com/" target="_blank" title="LinkedIn"><i
+                        class="ri-linkedin-fill"></i></a>
+                <a href="https://www.instagram.com/" target="_blank" title="Instagram"><i
+                        class="ri-instagram-line"></i></a>
+            </div>
+            <div class="h-btn">
+                <a href="#projects" class="btn1">
+                    View Projects
+                    <i class="ri-arrow-right-s-line"></i>
+                </a>
+                <a href="https://github.com/Yohhata" target="_blank" class="btn2">
+                    GitHub Profile
+                    <i class="ri-github-fill"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="./Photos/profilepic.JPG" alt="About Image">
+        </div>
+        <div class="about-text">
+            <a href="#" class="h-line">
+                <i class="ri-shining-2-line"></i>
+                <span>About!</span>
+            </a>
+            <h2>More <span> About Me</span></h2>
+            <h5>"In both coding and life, the key is balance: between logic and creativity, passion and precision, work
+                and play."</h5>
+            <p>Hello! I'm Yoshi Ohhata, an aspiring software engineer and multidisciplinary web developer based in
+                Vancouver. My journey is a blend of logic, creativity, and athleticism, as I come from an athletic
+                background that has instilled in me the discipline and perseverance I bring to every project. When I'm
+                not diving into code or crafting digital experiences, I'm capturing the world through my camera lens or
+                hitting the basketball court.
+            </p>
+            <div class="h-btn">
+                <a href="#contact" class="btn1">
+                    Hire Me
+                    <i class="ri-arrow-right-s-line"></i>
+                </a>
+                <a href="#" class="btn2">
+                    Download CV
+                    <i class="ri-download-2-line"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <a href="#" class="h-line">
+        <i class="ri-shining-2-line"></i>
+        <span>Resume</span>
+    </a>
+    <section class="resume" id="resume">
+        <div class="profile-info">
+            <img src="./Photos/resume.JPG" alt="Profile Picture" class="profile-pic2">
+            <div class="info">
+                <h2>Yoshi Ohhata</h2>
+                <p>Langara College, Computer Science Major</p>
+                <p>Vancouver, BC | <a href="https://github.com/Yohhata" target="_blank"
+                        style="color: var(--main-color);">github.com/Yohhata</a></p>
+            </div>
+        </div>
+
+        <section id="skills">
+            <details>
+                <summary>Technical Skills</summary>
+                <div class="skillsBar">
+                    <li>
+                        <h3>Java / JavaFX</h3>
+                        <span class="bar"><span class="Java"></span></span>
+                    </li>
+                    <li>
+                        <h3>HTML / CSS / JavaScript</h3>
+                        <span class="bar"><span class="html"></span></span>
+                    </li>
+                    <li>
+                        <h3>React / TypeScript</h3>
+                        <span class="bar"><span class="React"></span></span>
+                    </li>
+                    <li>
+                        <h3>SQL / Database Design</h3>
+                        <span class="bar"><span class="React"></span></span>
+                    </li>
+                    <li>
+                        <h3>Spring Boot / REST APIs</h3>
+                        <span class="bar"><span class="C"></span></span>
+                    </li>
+                    <li>
+                        <h3>C++</h3>
+                        <span class="bar"><span class="C"></span></span>
+                    </li>
+                    <li>
+                        <h3>Git / GitHub</h3>
+                        <span class="bar"><span class="React"></span></span>
+                    </li>
+                </div>
+            </details>
+        </section>
+
+        <section id="education">
+            <details open>
+                <summary>Education</summary>
+                <div class="education-timeline">
+
+                    <div class="edu-card">
+                        <div class="edu-card-dot"></div>
+                        <div class="edu-card-content">
+                            <div class="edu-card-header">
+                                <img src="./Resume/Langara.png" alt="Langara College" class="edu-logo">
+                                <div>
+                                    <h3>Langara College</h3>
+                                    <span class="edu-degree">Computer Science Major</span>
+                                </div>
+                            </div>
+                            <span class="edu-date"><i class="ri-calendar-line"></i> Jan 2024 — Present</span>
+                            <p>Currently pursuing a diploma in Computer Science. Coursework includes Data Structures,
+                                OOP in Java, Database Systems (SQL), and Web Development. GPA on track for university
+                                transfer.</p>
+                            <a href="https://langara.ca/" target="_blank" class="edu-link">Visit School →</a>
+                        </div>
+                    </div>
+
+                    <div class="edu-card">
+                        <div class="edu-card-dot"></div>
+                        <div class="edu-card-content">
+                            <div class="edu-card-header">
+                                <img src="./Resume/TerryFox.png" alt="Terry Fox Secondary" class="edu-logo">
+                                <div>
+                                    <h3>Terry Fox Secondary School</h3>
+                                    <span class="edu-degree">High School Diploma</span>
+                                </div>
+                            </div>
+                            <span class="edu-date"><i class="ri-calendar-line"></i> Sep 2020 — Jun 2023</span>
+                            <p>Completed high school in Port Coquitlam, BC. Participated in sports and developed
+                                foundational interests in computer science and technology.</p>
+                            <a href="https://www.sd43.bc.ca/school/terryfox/Pages/default.aspx#/=" target="_blank"
+                                class="edu-link">Visit School →</a>
+                        </div>
+                    </div>
+
+                    <div class="edu-card">
+                        <div class="edu-card-dot"></div>
+                        <div class="edu-card-content">
+                            <div class="edu-card-header">
+                                <img src="./Resume/Mita.png" alt="Mita International School" class="edu-logo">
+                                <div>
+                                    <h3>Mita International School</h3>
+                                    <span class="edu-degree">Middle School</span>
+                                </div>
+                            </div>
+                            <span class="edu-date"><i class="ri-calendar-line"></i> Apr 2017 — Aug 2020</span>
+                            <p>International school in Tokyo, Japan. Studied in a bilingual English/Japanese
+                                environment, building strong cross-cultural communication and language skills.</p>
+                            <a href="https://www.mita-is.ed.jp/en/" target="_blank" class="edu-link">Visit School →</a>
+                        </div>
+                    </div>
+
+                </div>
+            </details>
+        </section>
+
+    </section>
+
+    <!-- Projects Showcase Section -->
+    <section class="projects-showcase" id="projects">
+        <a href="#" class="h-line">
+            <i class="ri-shining-2-line"></i>
+            <span>Projects</span>
+        </a>
+        <h2>My <span>Projects</span></h2>
+        <p class="projects-subtitle">Full-stack applications, games, and tools built through coursework, hackathons, and
+            personal development.</p>
+
+        <!-- Filter Tabs -->
+        <div class="project-filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="fullstack">Full-Stack</button>
+            <button class="filter-btn" data-filter="hackathon">Hackathon</button>
+            <button class="filter-btn" data-filter="academic">Academic</button>
+            <button class="filter-btn" data-filter="personal">Personal</button>
+        </div>
+
+        <div class="projects-grid">
+
+            <!-- Fitness & Diet Tracker -->
+            <div class="project-card reveal" data-category="fullstack">
+                <div class="project-card-badge">Full-Stack</div>
+                <div class="project-card-image">
+                    <img src="./Resume/icons8-java-480.png" alt="Fitness Diet App">
+                </div>
+                <div class="project-card-content">
+                    <h3>Fitness &amp; Diet Tracker</h3>
+                    <p>Full-stack fitness tracking application built with Spring Boot. Features RESTful API design,
+                        MySQL database integration, JWT authentication, and user management with JPA/Hibernate ORM.</p>
+                    <div class="project-tags">
+                        <span class="tag">Spring Boot</span>
+                        <span class="tag">REST API</span>
+                        <span class="tag">MySQL</span>
+                        <span class="tag">JWT Auth</span>
+                        <span class="tag">JPA</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Today - Hackathon App -->
+            <div class="project-card reveal" data-category="hackathon">
+                <div class="project-card-badge hackathon">Hackathon</div>
+                <div class="project-card-image">
+                    <img src="./Resume/icons8-html-480.png" alt="Today Web App">
+                </div>
+                <div class="project-card-content">
+                    <h3>Today — Hackathon Web App</h3>
+                    <p>Web application built during a hackathon. Designed and developed under time-pressure with a team,
+                        focusing on rapid prototyping, user experience, and delivering a working MVP.</p>
+                    <div class="project-tags">
+                        <span class="tag">Node.js</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">Hackathon</span>
+                        <span class="tag">Teamwork</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Remotion Video Editor -->
+            <div class="project-card reveal" data-category="personal">
+                <div class="project-card-badge">Personal</div>
+                <div class="project-card-image">
+                    <img src="./Resume/icons8-react-480.png" alt="Remotion Video Editor">
+                </div>
+                <div class="project-card-content">
+                    <h3>Remotion Video Editor</h3>
+                    <p>Programmatic video editing tool using Remotion and FFmpeg. Automated silence detection, AI-themed
+                        visual overlays, and jump-cut generation for professional-grade video production.</p>
+                    <div class="project-tags">
+                        <span class="tag">React</span>
+                        <span class="tag">TypeScript</span>
+                        <span class="tag">FFmpeg</span>
+                        <span class="tag">Remotion</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CPSC 2221 Database Project -->
+            <div class="project-card reveal" data-category="academic">
+                <div class="project-card-badge academic">CPSC 2221</div>
+                <div class="project-card-image">
+                    <img src="./Resume/icons8-html-480.png" alt="Event Management Database">
+                </div>
+                <div class="project-card-content">
+                    <h3>Event Management Database</h3>
+                    <p>Full-stack CRUD web application for managing events, staff, and members. Designed relational
+                        database schema, wrote complex SQL queries (joins, subqueries, views), and built a PHP/HTML
+                        front-end.</p>
+                    <div class="project-tags">
+                        <span class="tag">SQL</span>
+                        <span class="tag">PHP</span>
+                        <span class="tag">MySQL</span>
+                        <span class="tag">Database Design</span>
+                        <span class="tag">CRUD</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CPSC 1045 Checkers Game -->
+            <div class="project-card reveal" data-category="academic">
+                <div class="project-card-badge academic">CPSC 1045</div>
+                <div class="project-card-image">
+                    <img src="./Resume/icons8-html-480.png" alt="Checkers Game">
+                </div>
+                <div class="project-card-content">
+                    <h3>Checkers Game</h3>
+                    <p>Interactive browser-based Checkers game built with HTML5 Canvas and JavaScript. Implemented OOP
+                        piece system with move validation, king promotion, jump captures, and turn-based gameplay.</p>
+                    <div class="project-tags">
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">HTML5 Canvas</span>
+                        <span class="tag">OOP</span>
+                        <span class="tag">Game Dev</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CPSC 1181 GroupChat GUI -->
+            <div class="project-card reveal" data-category="academic">
+                <div class="project-card-badge academic">CPSC 1181</div>
+                <div class="project-card-image">
+                    <img src="./Resume/icons8-java-480.png" alt="GroupChat GUI">
+                </div>
+                <div class="project-card-content">
+                    <h3>GroupChat GUI Application</h3>
+                    <p>Desktop chat application built with JavaFX. Features tabbed interface for user selection, message
+                        posting, reactions (emoji-based), and message management with event-driven architecture.</p>
+                    <div class="project-tags">
+                        <span class="tag">Java</span>
+                        <span class="tag">JavaFX</span>
+                        <span class="tag">GUI Design</span>
+                        <span class="tag">Event Handling</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CPSC 1181 JavaFX Scene -->
+            <div class="project-card reveal" data-category="academic">
+                <div class="project-card-badge academic">CPSC 1181</div>
+                <div class="project-card-image">
+                    <img src="./Resume/icons8-java-480.png" alt="JavaFX Scene Generator">
+                </div>
+                <div class="project-card-content">
+                    <h3>Interactive Scene Generator</h3>
+                    <p>JavaFX graphics application featuring procedurally generated desert scenes with cactus rendering,
+                        dynamic sky/sun effects, and user controls for customization via radio buttons and color
+                        pickers.</p>
+                    <div class="project-tags">
+                        <span class="tag">Java</span>
+                        <span class="tag">JavaFX</span>
+                        <span class="tag">Graphics</span>
+                        <span class="tag">Maven</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CPSC 1181 OOP Shapes -->
+            <div class="project-card reveal" data-category="academic">
+                <div class="project-card-badge academic">CPSC 1181</div>
+                <div class="project-card-image">
+                    <img src="./Resume/icons8-java-480.png" alt="OOP Shapes System">
+                </div>
+                <div class="project-card-content">
+                    <h3>OOP Shape System &amp; Billboard</h3>
+                    <p>Object-oriented geometry system implementing interfaces, abstract classes, and custom
+                        comparators. Features ASCII drawable shapes, perimeter sorting, and a Billboard display system.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">Java</span>
+                        <span class="tag">OOP</span>
+                        <span class="tag">Interfaces</span>
+                        <span class="tag">Design Patterns</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- React Portfolio -->
+            <div class="project-card reveal" data-category="personal">
+                <div class="project-card-badge">Personal</div>
+                <div class="project-card-image">
+                    <img src="./Resume/icons8-react-480.png" alt="React Portfolio">
+                </div>
+                <div class="project-card-content">
+                    <h3>React Portfolio Website</h3>
+                    <p>Dynamic single-page portfolio application with component-based architecture, responsive design,
+                        and interactive navigation built with React.js and modern CSS.</p>
+                    <div class="project-tags">
+                        <span class="tag">React.js</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">CSS</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- My Journey Section -->
+    <section class="my-journey" id="journey">
+        <a href="#" class="h-line">
+            <i class="ri-shining-2-line"></i>
+            <span>My Journey</span>
+        </a>
+        <h2>From <span>Japan to Canada</span></h2>
+
+        <div class="journey-content">
+            <div class="journey-card reveal">
+                <div class="journey-icon"><i class="ri-home-heart-line"></i></div>
+                <h3>Roots in Japan</h3>
+                <p>Born and raised in Japan, I spent my early years immersed in a culture that values precision,
+                    discipline, and respect. These values form the foundation of my approach to both life and computer
+                    science.</p>
+            </div>
+
+            <div class="journey-card reveal">
+                <div class="journey-icon"><i class="ri-plane-line"></i></div>
+                <h3>The Big Leap at 16</h3>
+                <p>Seeking new challenges and a global perspective, I moved to Canada alone at age 16 as an
+                    international student. Leaving my comfort zone at such a young age taught me independence,
+                    resilience, and the value of adaptability.</p>
+            </div>
+
+            <div class="journey-card reveal">
+                <div class="journey-icon"><i class="ri-global-line"></i></div>
+                <h3>Growth in Vancouver</h3>
+                <p>Adapting to a new country and language wasn't always easy, but it shaped me into the person I am
+                    today. Navigating high school at Terry Fox and now College at Langara has given me a unique
+                    perspective that I bring to every project.</p>
+            </div>
+
+            <div class="journey-card reveal" style="grid-column: span 2;">
+                <div class="journey-icon"><i class="ri-code-box-line"></i></div>
+                <h3>The Path Forward</h3>
+                <p>Today, I'm combining my Japanese roots with my Canadian experiences to build impactful software.
+                    Every line of code I write is a reflection of this journey—disciplined and precise, yet adaptive and
+                    open to the world.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Travel Section -->
+    <a href="#" class="h-line">
+        <i class="ri-shining-2-line"></i>
+        <span>Travel</span>
+    </a>
+    <section class="travel" id="travel">
+
+        <div class="travel-gallery">
+            <h2>The World Through <span>My Eyes</span></h2>
+            <div class="travel">
+                <div class="column">
+                    <div><img src="./travelpagephotos/IMG_4692.jpg" alt="Travel Photo 1"></div>
+                    <div><img src="./travelpagephotos/IMG_6614.jpg" alt="Travel Photo 2"></div>
+                </div>
+                <div class="column">
+                    <div><img src="./travelpagephotos/IMG_7229.jpg" alt="Travel Photo 3"></div>
+                    <div><img src="./travelpagephotos/IMG_7708.jpg" alt="Travel Photo 4"></div>
+                </div>
+                <div class="column">
+                    <div><img src="./travelpagephotos/IMG_6786.jpg" alt="Travel Photo 5"></div>
+                    <div><img src="./travelpagephotos/IMG_8146.jpg" alt="Travel Photo 6"></div>
+                </div>
+            </div>
+        </div>
+        <div class="bucketlist-video">
+            <video controls>
+                <source src="./travelpagephotos/6602523-hd_1920_1080_30fps.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="contact-main">
+            <a href="#" class="h-line">
+                <i class="ri-shining-2-line"></i>
+                <span>Contact!</span>
+            </a>
+            <h2>Got a Project? <span>Let's talk</span></h2>
+            <div class="email">
+                <p>Email:</p>
+                <h6>yoshimasa@w-japan.net</h6>
+            </div>
+            <div class="num">
+                <p>Call:</p>
+                <h6>078-229-6383</h6>
+                <div class="social-icons">
+                    <a href="https://github.com/Yohhata" target="_blank"><i class="ri-github-fill"></i></a>
+                    <a href="https://www.linkedin.com/" target="_blank"><i class="ri-linkedin-fill"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank"><i class="ri-instagram-line"></i></a>
+                </div>
+            </div>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Email address..." required>
+                <textarea cols="30" rows="10" placeholder="Write Message here..." required></textarea>
+                <input type="submit" value="Submit Now" class="submit-btn">
+            </form>
+    </section>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="copyright">
+            <p>&copy; 2026 Yoshi Ohhata. All Rights Reserved.</p>
+        </div>
+        <a href="#home" class="scroll-top">
+            <i class="ri-arrow-up-s-line"></i>
+        </a>
+    </div>
+
+    <!-- JavaScript -->
+    <script>
+        const header = document.querySelector("header");
+
+        window.addEventListener("scroll", function () {
+            header.classList.toggle("sticky", window.scrollY > 130);
+        });
+
+        let menu = document.querySelector('#menu-icon');
+        let menulist = document.querySelector('.menulist');
+
+        menu.onclick = () => {
+            menu.classList.toggle('bx-x');
+            menulist.classList.toggle('open');
+        };
+
+        window.onscroll = () => {
+            menu.classList.remove('bx-x');
+            menulist.classList.remove('open');
+        };
+
+        // Scroll reveal animation
+        function revealOnScroll() {
+            const reveals = document.querySelectorAll('.reveal');
+            reveals.forEach(el => {
+                const windowHeight = window.innerHeight;
+                const elementTop = el.getBoundingClientRect().top;
+                const revealPoint = 150;
+                if (elementTop < windowHeight - revealPoint) {
+                    el.classList.add('active-reveal');
+                }
+            });
+        }
+        window.addEventListener('scroll', revealOnScroll);
+        revealOnScroll();
+
+        // Project filter functionality
+        const filterBtns = document.querySelectorAll('.filter-btn');
+        const projectCards = document.querySelectorAll('.project-card');
+
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                filterBtns.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+
+                const filter = btn.getAttribute('data-filter');
+
+                projectCards.forEach(card => {
+                    if (filter === 'all' || card.getAttribute('data-category') === filter) {
+                        card.classList.remove('hidden');
+                    } else {
+                        card.classList.add('hidden');
+                    }
+                });
+            });
+        });
+
+        // Typed.js hero animation
+        if (document.querySelector('.input')) {
+            new Typed('.input', {
+                strings: ['Yoshi Ohhata', 'a Full-Stack Developer', 'a CS Student'],
+                typeSpeed: 60,
+                backSpeed: 40,
+                loop: true
+            });
+        }
+    </script>
+</body>
+
+</html>
